@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <accessibilityOverrides boldText="YES" dynamicTypePreference="3"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -19,52 +20,67 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Սկսե՞նք " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOx-16-kPJ">
                                 <rect key="frame" x="128.5" y="424" width="157.5" height="48"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <color key="backgroundColor" red="0.9532140370022828" green="0.97605070516456671" blue="0.98619273876903035" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" systemColor="labelColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8q3-fz-uyM">
-                                <rect key="frame" x="207" y="448" width="0.0" height="0.0"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ի՞նչ անել հիմա " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTz-Fi-myy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Անկեղծություն" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTz-Fi-myy">
                                 <rect key="frame" x="0.0" y="57" width="414" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <color key="backgroundColor" red="0.94328004121780396" green="0.84699895469252218" blue="0.5557172030297528" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmQ-d1-cbI">
-                                <rect key="frame" x="20" y="667" width="168" height="53"/>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmQ-d1-cbI" userLabel="Հարց  աղջիկներին">
+                                <rect key="frame" x="0.0" y="623" width="199" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.045207090679999999" green="0.031433623280000003" blue="0.1011979952" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
                                 </accessibility>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="ՍԿՍԵԼ" subtitle="" buttonSize="medium">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="34"/>
-                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                <buttonConfiguration key="configuration" style="plain" title="         Հարց  աղջիկներին" subtitle="" buttonSize="medium">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="26"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f0f-VT-uO8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBQ-oY-nNh">
-                                <rect key="frame" x="210" y="667" width="184" height="53"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VKp-DV-vw0">
+                                <rect key="frame" x="137" y="739" width="141" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.039251245560000002" green="0.033644068989999998" blue="0.095509745179999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="systemOrangeColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Սկիզբ">
+                                    <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="26"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="Սկիզբ:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Ge-cv-L2m"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Պատրաստ ե՞ս անկեղծանալ     Սկսե՞նք" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAO-tM-D54" userLabel="harcer">
+                                <rect key="frame" x="9" y="246" width="385" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99316412210464478" green="0.99316400289535522" blue="0.99316412210464478" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBQ-oY-nNh">
+                                <rect key="frame" x="207" y="623" width="191" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="ԱՎԱՐՏ">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="34"/>
-                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                <buttonConfiguration key="configuration" style="plain" title="      Հարց  տղաներին">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="26"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="Stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bg7-Wj-dcE"/>
@@ -72,19 +88,15 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.94139784574508667" green="0.87172073125839233" blue="0.75206476449966431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" systemColor="tintColor"/>
                         <constraints>
                             <constraint firstItem="mOx-16-kPJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8IA-uz-jbj"/>
                             <constraint firstItem="mOx-16-kPJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LsS-3h-QBe"/>
-                            <constraint firstItem="8q3-fz-uyM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WwS-Oc-mmp"/>
-                            <constraint firstItem="8q3-fz-uyM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ePc-27-PxH"/>
-                            <constraint firstItem="8q3-fz-uyM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gmK-k4-s52"/>
-                            <constraint firstItem="8q3-fz-uyM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qhP-kP-r3L"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="label" destination="8q3-fz-uyM" id="dg9-Hh-fFH"/>
+                        <outlet property="harcer" destination="TAO-tM-D54" id="eva-fa-3J0"/>
                         <outlet property="letsStart" destination="mOx-16-kPJ" id="7ZV-tB-Wjw"/>
                     </connections>
                 </viewController>
